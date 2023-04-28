@@ -1,11 +1,11 @@
 # Summary
 
-... 1-2 sentences (see [release checklist](http://universaldependencies.org/release_checklist.html#the-readme-file) for README guidelines) ...
+The UD_Turkish-ULU Treebank, is an automatic conversion of the ULU Treebank
 
 
 # Introduction
 
-...
+The UD_Turkish-ULU Treebank, is an automatic conversion of the ULU Treebank
 
 
 # Acknowledgments
@@ -14,7 +14,15 @@
 
 ## References
 
-* (citation)
+@article{bilgin2021new,
+  title={A new approach to automatically find and fix erroneous labels in dependency parsing treebanks.},
+  author={Bilgin, Metin},
+  journal={Int. Arab J. Inf. Technol.},
+  volume={18},
+  number={3},
+  pages={356--364},
+  year={2021}
+}
 
 
 # Changelog
