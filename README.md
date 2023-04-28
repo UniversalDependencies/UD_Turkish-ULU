@@ -14,15 +14,7 @@ The UD_Turkish-ULU Treebank, is an automatic conversion of the ULU Treebank
 
 ## References
 
-@article{bilgin2021new,
-  title={A new approach to automatically find and fix erroneous labels in dependency parsing treebanks.},
-  author={Bilgin, Metin},
-  journal={Int. Arab J. Inf. Technol.},
-  volume={18},
-  number={3},
-  pages={356--364},
-  year={2021}
-}
+Bilgin, Metin. "A new approach to automatically find and fix erroneous labels in dependency parsing treebanks." Int. Arab J. Inf. Technol. 18.3 (2021): 356-364.
 
 
 # Changelog
