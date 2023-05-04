@@ -20,3 +20,4 @@
 18	uygulanamadığını	uygulan	VERB	Verb	Aspect=Perf|Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Neg|Tense=Past|VerbForm=Part|Voice=Pass	19	ccomp	_	_
 19	kaydetti	kaydet	VERB	Verb	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
 20	.	.	PUNCT	Punc	_	19	punct	_	SpaceAfter=No
+
