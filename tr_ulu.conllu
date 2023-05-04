@@ -1,47 +1,22 @@
-# sent_id = 1									
-# text = Yıldırım , iki yıl önce aldıkları halka açılma kararının , ülkenin geçirdiği zor günler nedeniyle bugüne kadar uygulanamadığını kaydetti .									
-1	Yıldırım	Yıldırım	NOUN	Prop	Case=Nom|Number=Sing|Person=3	22	obl	_	_
-2	,	,	PUNCT	Punc	_	1	punct	_	_
-3	iki	iki	ADJ	Num	_	4	amod	_	_
-4	yıl	yıl	NOUN	Noun	A3sg|Pnon|Nom	5	nsubj	_	_
-5	önce	önce	ADV	Adverb	_	6	advmod	_	_
-6	_	al	VERB	Verb	Pos	7	parataxis	_	_
-7	aldıkları	_	ADJ	PastPart	P3pl	8	amod	_	_
-8	halka	halk	NOUN	Noun	A3sg|Pnon|Dat	9	obl	_	_
-9	açılma	aç	VERB	Verb	Pass|Neg|Imp|A2sg	22	advcl	_	_
-10	kararının	karar	NOUN	Noun	A3sg|P3sg|Gen	17	reparandum	_	_
-11	,	,	PUNCT	Punc	_	10	punct	_	_
-12	ülkenin	ülke	NOUN	Noun	A3sg|Pnon|Gen	14	obl	_	_
-13	_	geçir	VERB	Verb	Pos	14	parataxis	_	_
-14	geçirdiği	_	ADJ	PastPart	P3sg	16	amod	_	_
-15	zor	zor	ADJ	Adj	_	16	amod	_	_
-16	günler	gün	NOUN	Noun	A3pl|Pnon|Nom	17	reparandum	_	_
-17	nedeniyle	neden	NOUN	Noun	A3sg|P3sg|Ins	22	obl	_	_
-18	bugüne	bugün	NOUN	Noun	A3sg|Pnon|Dat	19	compound	_	_
-19	kadar	kadar	ADP	PCDat	_	20	mark	_	_
-20	_	uygula	VERB	Verb	Pass|Able|Neg	21	acl	_	_
-21	uygulanamadığını	_	NOUN	PastPart	A3sg|P3sg|Acc	22	obl	_	_
-22	kaydetti	kaydet	VERB	Verb	Pos|Past|A3sg	0	root	_	_
-23	.	.	PUNCT	Punc	_	22	punct	_	_
-
-# sent_id = 2									
-# text = Daha sonra soruları yanıtlayan Yıldırım , elde edilecek gelirin Fenerbahçe'nin geleceğine yatırım için kullanılacağını söyledi .									
-1	Daha	daha	ADV	Adverb	_	2	advmod	_	_
-2	sonra	sonra	ADV	Adverb	_	4	advmod	_	_
-3	soruları	soru	NOUN	Noun	A3pl|Pnon|Acc	4	obl	_	_
-4	_	yanıtla	VERB	Verb	Pos	5	parataxis	_	_
-5	yanıtlayan	_	ADJ	PresPart	_	6	amod	_	_
-6	Yıldırım	Yıldırım	NOUN	Prop	A3sg|Pnon|Nom	18	obl	_	_
-7	,	,	PUNCT	Punc	_	6	punct	_	_
-8	elde	el	NOUN	Noun	A3sg|Pnon|Loc	9	obl	_	_
-9	_	et	VERB	Verb	Pass|Pos	10	parataxis	_	_
-10	edilecek	_	ADJ	FutPart	Pnon	11	amod	_	_
-11	gelirin	gelir	NOUN	Noun	A3sg|Pnon|Gen	17	reparandum	_	_
-12	Fenerbahçe'nin	Fenerbahçe	NOUN	Prop	A3sg|Pnon|Gen	13	reparandum	_	_
-13	geleceğine	gelecek	NOUN	NAdj	A3sg|P3sg|Dat	16	obl	_	_
-14	yatırım	yatırım	NOUN	Noun	A3sg|Pnon|Nom	15	compound	_	_
-15	için	için	ADP	PCNom	_	16	mark	_	_
-16	_	kullan	VERB	Verb	Pass|Pos	17	acl	_	_
-17	kullanılacağını	_	NOUN	FutPart	A3sg|P3sg|Acc	18	obl	_	_
-18	söyledi	söyle	VERB	Verb	Pos|Past|A3sg	0	root	_	_
-19	.	.	PUNCT	Punc	_	18	punct	_	_
+# sent_id = 1
+# text = Yıldırım , iki yıl önce aldıkları halka açılma kararının , ülkenin geçirdiği zor günler nedeniyle bugüne kadar uygulanamadığını kaydetti .
+1	Yıldırım	yıldırım	PROPN	Prop	Case=Nom|Number=Sing|Person=3	19	nsubj	_	_
+2	,	,	PUNCT	Punc	_	19	punct	_	_
+3	iki	iki	NUM	ANum	NumType=Card	4	nummod	_	_
+4	yıl	yýl	NOUN	Noun	Case=Nom|Number=Sing|Person=3	6	obl	_	_
+5	önce	önce	ADP	PCAbl	_	4	case	_	_
+6	aldıkları	al	VERB	Verb	Aspect=Perf|Number[psor]=Plur|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	9	acl	_	_
+7	halka	halk	NOUN	Noun	Case=Dat|Number=Sing|Person=3	8	obj	_	_
+8	açılma	aç	VERB	Verb	Case=Nom|Number=Sing|Person=3|Polarity=Pos|Voice=Pass	9	nmod:poss	_	_
+9	kararının	karar	NOUN	Noun	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	18	nsubj	_	_
+10	,	,	PUNCT	Punc	_	18	punct	_	_
+11	ülkenin	ülke	NOUN	Noun	Case=Gen|Number=Sing|Person=3	12	nsubj	_	_
+12	geçirdiği	geçir	VERB	Verb	Aspect=Perf|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	14	acl	_	_
+13	zor	zor	ADJ	Adj	_	14	amod	_	_
+14	günler	gün	NOUN	Noun	Case=Nom|Number=Plur|Person=3	15	nmod:poss	_	_
+15	nedeniyle	neden	NOUN	Noun	Case=Ins|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	18	obl	_	_
+16	bugüne	bugün	NOUN	Noun	Case=Dat|Number=Sing|Person=3	18	obl	_	_
+17	kadar	kadar	ADP	PCDat	_	16	case	_	_
+18	uygulanamadığını	uygulan	VERB	Verb	Aspect=Perf|Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Neg|Tense=Past|VerbForm=Part|Voice=Pass	19	ccomp	_	_
+19	kaydetti	kaydet	VERB	Verb	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	ROOT	_	_
+20	.	.	PUNCT	Punc	_	19	punct	_	SpaceAfter=No
