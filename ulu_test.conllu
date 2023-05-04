@@ -1,4 +1,4 @@
-# sent_id = 1
+# sent_id = 2
 # text = Yıldırım , iki yıl önce aldıkları halka açılma kararının , ülkenin geçirdiği zor günler nedeniyle bugüne kadar uygulanamadığını kaydetti .
 1	Yıldırım	yıldırım	PROPN	Prop	Case=Nom|Number=Sing|Person=3	19	nsubj	_	_
 2	,	,	PUNCT	Punc	_	19	punct	_	_
