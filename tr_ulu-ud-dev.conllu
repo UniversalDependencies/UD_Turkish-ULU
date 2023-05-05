@@ -444,7 +444,7 @@
 
 # sent_id = 10444
 # text = Ortaklar arasında duyarlı konular için uyumsuzluk , gizlenemez hale gelmekte .
-1	Ortaklar  ortak NOUN	NAdj	Case=Nom|Number=Plur|Person=3	2	obl	_	_
+1	Ortaklar	ortak	NOUN	NAdj	Case=Nom|Number=Plur|Person=3	2	obl	_	_
 2	arasında	ara	ADJ	NAdj	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	amod	_	_
 3	duyarlı	duyarlı	ADJ	Adj	_	4	amod	_	_
 4	konular	konu	NOUN	Noun	Case=Nom|Number=Plur|Person=3	9	nsubj	_	_
@@ -462,7 +462,7 @@
 2	Genelkurmay	genelkurmay	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	obl	_	_
 3	olmak	ol	VERB	Verb	Case=Nom|Polarity=Pos	12	obl	_	_
 4	üzere	üzere	ADP	PCNom	_	3	case	_	_
-5	Ecevit’in Ecevit  PROPN	Prop	Case=Gen|Number=Sing|Person=3	6	compound	_	_
+5	Ecevit’in	Ecevit	PROPN	Prop	Case=Gen|Number=Sing|Person=3	6	compound	_	_
 6	sağlığı	sağlık	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	12	nsubj	_	_
 7	özenle	özen	ADV	Noun	_	12	advmod	_	_
 8	ve	ve	CCONJ	Conj	_	9	cc	_	_
