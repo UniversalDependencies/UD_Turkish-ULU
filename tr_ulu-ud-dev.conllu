@@ -198,18 +198,6 @@
 5	giderilmeli	gideril	VERB	Verb	Mood=Nec|Number=Sing|Person=3|Polarity=Pos|Voice=Pass	0	root	_	_
 6	.	.	PUNCT	Punc	_	5	punct	_	_
 
-# sent_id = 10422
-# text = Ecevit’in daha birkaç gün evden çıkmamak kararı yerindedir .
-1	Ecevit’in	Ecevit	PROPN	Prop	Case=Gen|Number=Sing|Person=3	7	compound	_	_
-2	daha	daha	ADV	Adverb	_	6	advmod	_	_
-3	birkaç	birkaç	DET	Det	_	4	det	_	_
-4	gün	gün	NOUN	Noun	Case=Nom|Number=Sing|Person=3	6	obl	_	_
-5	evden	ev	NOUN	Noun	Case=Abl|Number=Sing|Person=3	6	obl	_	_
-6	çıkmamak	çık	VERB	Verb	Case=Nom|Polarity=Neg	7	acl	_	_
-7	kararı	karar	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	obl	_	_
-8	yerindedir	yer	ADJ	NAdj_Zero	Aspect=Perf|Case=Loc|Mood=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Tense=Pres	0	root	_	_
-9	.	.	PUNCT	Punc	_	8	punct	_	_
-
 # sent_id = 10423
 # text = Bütün demokrasilerde , cumhurbaşkanları , başbakanlar hafta sonu çalışmazlar .
 1	Bütün	bütün	ADJ	Adj	_	2	amod	_	_
