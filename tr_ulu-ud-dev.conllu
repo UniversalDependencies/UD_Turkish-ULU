@@ -425,7 +425,7 @@
 4	siyaset	siyaset	NOUN	Noun	Case=Nom|Number=Sing|Person=3	7	nsubj	_	_
 5	,	,	PUNCT	Punc	_	7	punct	_	_
 6	devlet	devlet	NOUN	Noun	Case=Nom|Number=Sing|Person=3	7	reparandum	_	_
-7	adamlığıdır	adamlık	NOUN	Noun_Zero Aspect=Perf|Case=Nom|Mood=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Tense=Pres	0	root	_	_
+7	adamlığıdır	adamlık	NOUN	Noun_Zero	Aspect=Perf|Case=Nom|Mood=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Tense=Pres	0	root	_	_
 8	.	.	PUNCT	Punc	_	7	punct	_	_
 
 # sent_id = 10443
@@ -582,39 +582,6 @@
 4	fabrikası	fabrika	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	0	root	_	_
 5	gibi	gibi	ADP	PCNom	_	4	case	_	_
 6	.	.	PUNCT	Punc	_	4	punct	_	_
-
-# sent_id = 10455
-# text = Mafyayla savaşımın simgesi Savcı Scarpinato’nun anlatımına göre , bazı özel kuvvetler ve gizli servisin ikinci başkanıyla birlikte , İtalya’nin güneyini ve Sıçmaya Adaşı’nı ayrı bir devlet haline getirme çabasındaymışlar .
-1	Mafyayla	Mafya	NOUN	Noun	Case=Ins|Number=Sing|Person=3	2	obj	_	_
-2	savaşımın	savaşım	NOUN	Noun	Case=Gen|Number=Sing|Person=3	3	reparandum	_	_
-3	simgesi	simge	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	reparandum	_	_
-4	Savcı	savcı	NOUN	Noun	Case=Nom|Number=Sing|Person=3	6	reparandum	_	_
-5	Scarpinato’nun	Scarpinato’	PROPN	Prop	Case=Gen|Number=Sing|Person=3	4	compound	_	_
-6	anlatımına	anlatım	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	29	reparandum	_	_
-7	göre	göre	ADP	PCDat	_	6	case	_	_
-8	,	,	PUNCT	Punc	_	29	punct	_	_
-9	bazı	bazı	DET	Det	_	11	det	_	_
-10	özel	özel	ADJ	Adj	_	11	amod	_	_
-11	kuvvetler	kuvvet	NOUN	Noun	Case=Nom|Number=Plur|Person=3	29	obl	_	_
-12	ve	ve	CCONJ	Conj	_	16	cc	_	_
-13	gizli	gizli	ADJ	Adj	_	14	amod	_	_
-14	servisin	servis	NOUN	Noun	Case=Gen|Number=Sing|Person=3	16	reparandum	_	_
-15	ikinci	iki	NUM	NNum	Case=Nom|NumType=Ord|Number=Sing|Person=3	16	amod	_	_
-16	başkanıyla	başkan	NOUN	Noun	Case=Ins|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	conj	_	_
-17	birlikte	birlikte	ADP	PCIns	_	11	case	_	_
-18	,	,	PUNCT	Punc	_	29	punct	_	_
-19	İtalya’nin	İtalya	PROPN	Prop	Case=Gen|Number=Sing|Person=3	20	compound	_	_
-20	güneyini	güney	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	28	obj	_	_
-21	ve	ve	CCONJ	Conj	_	23	cc	_	_
-22	Sıçmaya	Sıçmaya	NOUN	Verb	Case=Dat|Number=Sing|Person=3|Polarity=Pos	23	reparandum	_	_
-23	Adaşı’nı	Adaşı	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	20	conj	_	_
-24	ayrı	ayrı	ADJ	Adj	_	26	amod	_	_
-25	bir	bir	DET	ANum	_	26	det	_	_
-26	devlet	devlet	NOUN	Noun	Case=Nom|Number=Sing|Person=3	27	reparandum	_	_
-27	haline	hâl	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	28	obl	_	_
-28	getirme	getir	VERB	Verb	Case=Nom|Number=Sing|Person=3|Polarity=Pos	29	acl	_	_
-29	çabasındaymışlar	çaba	NOUN	Noun_Zero	Aspect=Perf|Case=Loc|Mood=Ind|Number=Plur,Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Tense=Past	0	root	_	_
-30	.	.	PUNCT	Punc	_	29	punct	_	_
 
 # sent_id = 10456
 # text = Akdeniz’in Singapur’u gibi serbest bölge olacakmış .
