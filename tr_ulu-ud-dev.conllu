@@ -884,7 +884,7 @@
 14	video	video	NOUN	Det	Case=Nom|Number=Sing|Person=3	15	compound	_	_
 15	konferans	konferans	NOUN	Noun	Case=Nom|Number=Sing|Person=3	16	reparandum	_	_
 16	yöntemiyle	yöntem	NOUN	Noun	Case=Ins|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	21	obl	_	_
-17	Bakanlar_Kurulu'nu  bakanlar_kurul  NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	21	obj	_	_
+17	Bakanlar_Kurulu'nu	bakanlar_kurul	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	21	obj	_	_
 18	,	,	PUNCT	Punc	_	21	punct	_	_
 19	liderler	lider	NOUN	Noun	Case=Nom|Number=Plur|Person=3	20	reparandum	_	_
 20	zirvesini	zirve	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	21	obj	_	_
@@ -900,7 +900,7 @@
 
 # sent_id = 10485
 # text = Faizin ve doların da ateşi çıkmazdı .
-1	Faizin		NOUN	Noun	Case=Gen|Number=Sing|Person=3	5	reparandum	_	_
+1	Faizin  faiz  NOUN  Noun	Case=Gen|Number=Sing|Person=3	5	reparandum	_	_
 2	ve	ve	CCONJ	Conj	_	3	cc	_	_
 3	doların	dolar	NOUN	Noun	Case=Gen|Number=Sing|Person=3	1	conj	_	_
 4	da	da	CCONJ	Conj	_	3	cc	_	_
@@ -930,7 +930,7 @@
 7	yürütmekte	yürüt	NOUN	Noun	Case=Loc|Polarity=Pos	8	obj	_	_
 8	olduğunun	ol	NOUN	Noun	_	9	nsubj	_	_
 9	görülmesi	gör	VERB	Verb	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Voice=Pass	10	csubj	_	_
-10	yeterlidir	yeterli ADJ	NAdj_Zero	Aspect=Perf|Case=Nom|Mood=Gen|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+10	yeterlidir	yeterli	ADJ	NAdj_Zero	Aspect=Perf|Case=Nom|Mood=Gen|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 11	.	.	PUNCT	Punc	_	10	punct	_	_
 
 # sent_id = 10488
@@ -1037,7 +1037,7 @@
 1	Riskli	Risk	ADJ	Adj	Case=Nom|Number=Sing|Person=3	0	root	_	_
 2	ve	ve	CCONJ	Conj	_	4	cc	_	_
 3	uzun	uzun	ADJ	Adj	_	4	amod	_	_
-4	süredir	süre  ADV	Noun	_	1	conj	_	_
+4	süredir	süre	ADV	Noun	_	1	conj	_	_
 5	bu	bu	PRON	Demons	Case=Nom|Number=Sing|Person=3|PronType=Dem	1	nsubj	_	_
 6	.	.	PUNCT	Punc	_	5	punct	_	_
 
@@ -1054,7 +1054,7 @@
 
 # sent_id = 10499
 # text = Kitaplar ve kediler çok güzel .
-1	Kitaplar  kitap NOUN	Noun	Case=Nom|Number=Plur|Person=3	5	nsubj	_	_
+1	Kitaplar	kitap	NOUN	Noun	Case=Nom|Number=Plur|Person=3	5	nsubj	_	_
 2	ve	ve	CCONJ	Conj	_	3	cc	_	_
 3	kediler	kedi	ADJ	NAdj	Case=Nom|Number=Plur|Person=3	1	conj	_	_
 4	çok	çok	ADV	Adverb	_	5	advmod	_	_
@@ -1075,15 +1075,6 @@
 10	modülü	modül	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	nsubj	_	_
 11	oluşturulmuştu	oluştur	VERB	Verb	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	0	root	_	_
 12	.	.	PUNCT	Punc	_	11	punct	_	_
-
-# sent_id = 10502
-# text = Özel doktoru Cengiz_Aslan hep yanındaydı .
-1	Özel	özel	ADJ	Adj	_	2	amod	_	_
-2	doktoru	doktor	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	nmod	_	_
-3	Cengiz_Aslan	Cengiz_Aslan	PROPN	Prop	Case=Nom|Number=Sing|Person=3	5	nsubj	_	_
-4	hep	hep	ADV	Adverb	_	5	advmod	_	_
-5	yanındaydı	yanın	NOUN	NAdj_Zero	Aspect=Perf|Case=Loc|Mood=Ind|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Tense=Past	0	root	_	_
-6	.	.	PUNCT	Punc	_	5	punct	_	_
 
 # sent_id = 10503
 # text = O olmadığı zaman nöbetçi tıp görevlileri vardı .
