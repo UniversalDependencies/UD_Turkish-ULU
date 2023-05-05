@@ -579,7 +579,7 @@
 3	gibi	gibi	ADP	PCNom	_	2	case	_	_
 4	serbest	serbest	ADJ	Adj	_	5	amod	_	_
 5	bölge	bölge	NOUN	Noun	Case=Nom|Number=Sing|Person=3	6	obj	_	_
-6	olacakmış		VERB	Verb	Aspect=Hab|Evident=Nfh|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	0	root	_	_
+6	olacakmış ol  VERB	Verb	Aspect=Hab|Evident=Nfh|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	0	root	_	_
 7	.	.	PUNCT	Punc	_	6	punct	_	_
 
 # sent_id = 10457
@@ -631,7 +631,7 @@
 
 # sent_id = 10460
 # text = Asli görevini , geçmişini , şehitlerini , gazilerini ve onların ailelerini kutsayan , ama gelecek nesillerin de önünü tıkamayan bir söylem .
-1	Asli		ADJ	Adj	_	2	amod	_	_
+1	Asli  asli  ADJ	Adj	_	2	amod	_	_
 2	görevini	görev	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	12	obj	_	_
 3	,	,	PUNCT	Punc	_	4	punct	_	_
 4	geçmişini	geçmiş	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	2	conj	_	_
@@ -684,7 +684,7 @@
 7	sorumluluk	sorumlu	NOUN	Noun	Case=Nom|Number=Sing|Person=3	10	reparandum	_	_
 8	ve	ve	CCONJ	Conj	_	9	cc	_	_
 9	anlayış	anlayış	NOUN	Noun	Case=Nom|Number=Sing|Person=3	7	conj	_	_
-10	çizgisindeydi		NOUN	Noun_Zero	Aspect=Perf|Case=Loc|Mood=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Tense=Pres	0	root	_	_
+10	çizgisindeydi çizgi NOUN	Noun_Zero	Aspect=Perf|Case=Loc|Mood=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Tense=Pres	0	root	_	_
 11	.	.	PUNCT	Punc	_	10	punct	_	_
 
 # sent_id = 10464
@@ -707,7 +707,7 @@
 6	yardımcı	yardımcı	NOUN	Noun	Case=Nom|Number=Sing|Person=3	9	nsubj	_	_
 7	,	,	PUNCT	Punc	_	9	punct	_	_
 8	kamuoyunun	kamuoy	NOUN	Noun	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	nsubj	_	_
-9	oluşturulmasıydı		VERB	Verb_Zero	Aspect=Perf|Case=Nom|Mood=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Tense=Pres|Voice=Pass	0	root	_	_
+9	oluşturulmasıydı  oluştur VERB	Verb_Zero	Aspect=Perf|Case=Nom|Mood=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Tense=Pres|Voice=Pass	0	root	_	_
 10	.	.	PUNCT	Punc	_	9	punct	_	_
 
 # sent_id = 10466
@@ -787,7 +787,7 @@
 
 # sent_id = 10472
 # text = Günahlarının cezası ne olacak ?
-1	Günahlarının		NOUN	Noun	Case=Gen|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	2	reparandum	_	_
+1	Günahlarının  günah NOUN	Noun	Case=Gen|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	2	reparandum	_	_
 2	cezası	ceza	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	nsubj	_	_
 3	ne	ne	PRON	Ques	Case=Nom|Number=Sing|Person=3	4	obj	_	_
 4	olacak	ol	VERB	Verb	Aspect=Imp|Number=Sing|Person=3|Polarity=Pos|Tense=Fut	0	root	_	_
@@ -824,7 +824,7 @@
 1	Bu	bu	DET	Det	_	2	det	_	_
 2	ceza	ceza	NOUN	Noun	Case=Nom|Number=Sing|Person=3	7	nsubj	_	_
 3	,	,	PUNCT	Punc	_	6	punct	_	_
-4	Anayasa’nın		PROPN	Prop	Case=Gen|Number=Sing|Person=3	5	vocative	_	_
+4	Anayasa’nın anayasa PROPN	Prop	Case=Gen|Number=Sing|Person=3	5	vocative	_	_
 5	değiştirilemez	değiş	VERB	Verb	Aspect=Hab|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|Voice=Pass	6	acl	_	_
 6	hükümleri	hüküm	NOUN	Noun	Case=Acc|Number=Plur|Person=3	7	obj	_	_
 7	eklenmelidir	ekle i	NOUN	Noun_Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	0	root	_	_
@@ -844,7 +844,7 @@
 
 # sent_id = 10477
 # text = Ocalan’ın yaşamının son saniyesine kadar hapiste kalması , Anayasa’nın değişmez hükmüyle güvenceye alınsın .
-1	Ocalan’ın		PROPN	Prop	Case=Gen|Number=Sing|Person=3	7	nsubj	_	_
+1	Ocalan’ın ocalan  PROPN	Prop	Case=Gen|Number=Sing|Person=3	7	nsubj	_	_
 2	yaşamının	yaşam	NOUN	Noun	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	reparandum	_	_
 3	son	son	ADJ	Adj	_	4	amod	_	_
 4	saniyesine	saniye	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	nmod	_	_
@@ -852,7 +852,7 @@
 6	hapiste	hapis	NOUN	Noun	Case=Loc|Number=Sing|Person=3	7	obl	_	_
 7	kalması	kal	VERB	Verb	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos	12	csubj	_	_
 8	,	,	PUNCT	Punc	_	12	punct	_	_
-9	Anayasa’nın		PROPN	Prop	Case=Gen|Number=Sing|Person=3	11	compound	_	_
+9	Anayasa’nın anayasa PROPN	Prop	Case=Gen|Number=Sing|Person=3	11	compound	_	_
 10	değişmez	değiş	VERB	Verb	Aspect=Hab|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|Voice=Pass	11	amod	_	_
 11	hükmüyle	hükm	NOUN	Noun	Case=Ins|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	12	obl	_	_
 12	güvenceye	güvence	NOUN	Noun	Case=Dat|Number=Sing|Person=3	0	root	_	_
@@ -868,7 +868,7 @@
 5	da	da	CCONJ	Conj	_	4	cc	_	_
 6	kazanacak	kazan	VERB	Verb	Aspect=Imp|Polarity=Pos|Tense=Fut|VerbForm=Part	7	acl	_	_
 7	anlatımlara	anlatım	NOUN	Noun	Case=Dat|Number=Plur|Person=3	8	obj	_	_
-8	odaklanmaktır	odaklan i	VERB	Verb_Zero	Case=Nom|Number=Sing|Person=3|Polarity=Pos	0	root	_	_
+8	odaklanmaktır	odaklan VERB	Verb_Zero	Case=Nom|Number=Sing|Person=3|Polarity=Pos	0	root	_	_
 9	.	.	PUNCT	Punc	_	8	punct	_	_
 
 # sent_id = 10479
@@ -908,7 +908,7 @@
 12	korunma	koru	VERB	Verb	Case=Nom|Number=Sing|Person=3|Polarity=Pos|Voice=Pass	2	conj	_	_
 13	olanakları	olanak	NOUN	Noun	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	14	obj	_	_
 14	bulunan	bulun	VERB	Verb	Polarity=Pos|Tense=Pres|VerbForm=Part	15	acl	_	_
-15	Başbakanlık_Konutu'na		NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	17	obl	_	_
+15	Başbakanlık_Konutu'na başbakanlık_konut NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	17	obl	_	_
 16	neden	neden	ADV	Ques	_	17	advmod	_	_
 17	geçmiyor	geç	VERB	Verb	Aspect=Prog|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	0	root	_	_
 18	?	?	PUNCT	Punc	_	17	punct	_	_
@@ -916,7 +916,7 @@
 # sent_id = 10481
 # text = Başbakanlık Konutu'na geçmesi Türkiye'nin yararları gereğidir .
 1	Başbakanlık	Başbakan	NOUN	Noun	Case=Nom|Number=Sing|Person=3	2	reparandum	_	_
-2	Konutu'na		NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	obl	_	_
+2	Konutu'na konut NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	obl	_	_
 3	geçmesi	geç	VERB	Verb	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos	6	csubj	_	_
 4	Türkiye'nin	Türkiye	PROPN	Prop	Case=Gen|Number=Sing|Person=3	5	compound	_	_
 5	yararları	yarar	NOUN	Noun	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	6	reparandum	_	_
@@ -962,7 +962,7 @@
 14	video	video	NOUN	Det	Case=Nom|Number=Sing|Person=3	15	compound	_	_
 15	konferans	konferans	NOUN	Noun	Case=Nom|Number=Sing|Person=3	16	reparandum	_	_
 16	yöntemiyle	yöntem	NOUN	Noun	Case=Ins|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	21	obl	_	_
-17	Bakanlar_Kurulu'nu		NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	21	obj	_	_
+17	Bakanlar_Kurulu'nu  bakanlar_kurul  NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	21	obj	_	_
 18	,	,	PUNCT	Punc	_	21	punct	_	_
 19	liderler	lider	NOUN	Noun	Case=Nom|Number=Plur|Person=3	20	reparandum	_	_
 20	zirvesini	zirve	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	21	obj	_	_
@@ -1008,7 +1008,7 @@
 7	yürütmekte	yürüt	NOUN	Noun	Case=Loc|Polarity=Pos	8	obj	_	_
 8	olduğunun	ol	NOUN	Noun	_	9	nsubj	_	_
 9	görülmesi	gör	VERB	Verb	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Voice=Pass	10	csubj	_	_
-10	yeterlidir	yeterli i	ADJ	NAdj_Zero	Aspect=Perf|Case=Nom|Mood=Gen|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+10	yeterlidir	yeterli ADJ	NAdj_Zero	Aspect=Perf|Case=Nom|Mood=Gen|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 11	.	.	PUNCT	Punc	_	10	punct	_	_
 
 # sent_id = 10488
@@ -1115,7 +1115,7 @@
 1	Riskli	Risk	ADJ	Adj	Case=Nom|Number=Sing|Person=3	0	root	_	_
 2	ve	ve	CCONJ	Conj	_	4	cc	_	_
 3	uzun	uzun	ADJ	Adj	_	4	amod	_	_
-4	süredir	süre i	ADV	Noun	_	1	conj	_	_
+4	süredir	süre  ADV	Noun	_	1	conj	_	_
 5	bu	bu	PRON	Demons	Case=Nom|Number=Sing|Person=3|PronType=Dem	1	nsubj	_	_
 6	.	.	PUNCT	Punc	_	5	punct	_	_
 
@@ -1132,26 +1132,12 @@
 
 # sent_id = 10499
 # text = Kitaplar ve kediler çok güzel .
-1	Kitaplar		NOUN	Noun	Case=Nom|Number=Plur|Person=3	5	nsubj	_	_
+1	Kitaplar  kitap NOUN	Noun	Case=Nom|Number=Plur|Person=3	5	nsubj	_	_
 2	ve	ve	CCONJ	Conj	_	3	cc	_	_
 3	kediler	kedi	ADJ	NAdj	Case=Nom|Number=Plur|Person=3	1	conj	_	_
 4	çok	çok	ADV	Adverb	_	5	advmod	_	_
 5	güzel	güzel	ADJ	Adj	_	0	root	_	_
 6	.	.	PUNCT	Punc	_	5	punct	_	_
-
-# sent_id = 10500
-# text = Ecevit'in kendisine , sevenlerine ve ülkesine karşı buna hakkı yok .
-1	Ecevit'in	Ecevit	PROPN	Prop	Case=Gen|Number=Sing|Person=3	10	nsubj	_	_
-2	kendisine	kendi	PRON	Reflex	_	10	obl	_	_
-3	,	,	PUNCT	Punc	_	4	punct	_	_
-4	sevenlerine	seven	NOUN	Noun	Case=Dat|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	2	conj	_	_
-5	ve	ve	CCONJ	Conj	_	6	cc	_	_
-6	ülkesine	ülke	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	2	conj	_	_
-7	karşı	karşı	ADP	PCDat	_	2	case	_	_
-8	buna	bu	PRON	Demons	Case=Dat|Number=Sing|Person=3	9	dislocated	_	_
-9	hakkı	Hak	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	nsubj	_	_
-10	yok	yok	ADJ	Adj	_	0	root	_	_
-11	.	.	PUNCT	Punc	_	10	punct	_	_
 
 # sent_id = 10501
 # text = Turgut_Özal zamanında böyle durumlar için Başbakanlık_Konutu'nun altında acil müdahale modülü oluşturulmuştu .
