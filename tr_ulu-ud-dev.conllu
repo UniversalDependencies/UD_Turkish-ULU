@@ -801,7 +801,7 @@
 
 # sent_id = 10477
 # text = Ocalan’ın yaşamının son saniyesine kadar hapiste kalması , Anayasa’nın değişmez hükmüyle güvenceye alınsın .
-1	Ocalan’ın ocalan  PROPN	Prop	Case=Gen|Number=Sing|Person=3	7	nsubj	_	_
+1	Ocalan’ın	ocalan	PROPN	Prop	Case=Gen|Number=Sing|Person=3	7	nsubj	_	_
 2	yaşamının	yaşam	NOUN	Noun	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	reparandum	_	_
 3	son	son	ADJ	Adj	_	4	amod	_	_
 4	saniyesine	saniye	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	nmod	_	_
@@ -809,7 +809,7 @@
 6	hapiste	hapis	NOUN	Noun	Case=Loc|Number=Sing|Person=3	7	obl	_	_
 7	kalması	kal	VERB	Verb	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos	12	csubj	_	_
 8	,	,	PUNCT	Punc	_	12	punct	_	_
-9	Anayasa’nın anayasa PROPN	Prop	Case=Gen|Number=Sing|Person=3	11	compound	_	_
+9	Anayasa’nın	anayasa	PROPN	Prop	Case=Gen|Number=Sing|Person=3	11	compound	_	_
 10	değişmez	değiş	VERB	Verb	Aspect=Hab|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|Voice=Pass	11	amod	_	_
 11	hükmüyle	hükm	NOUN	Noun	Case=Ins|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	12	obl	_	_
 12	güvenceye	güvence	NOUN	Noun	Case=Dat|Number=Sing|Person=3	0	root	_	_
@@ -825,7 +825,7 @@
 5	da	da	CCONJ	Conj	_	4	cc	_	_
 6	kazanacak	kazan	VERB	Verb	Aspect=Imp|Polarity=Pos|Tense=Fut|VerbForm=Part	7	acl	_	_
 7	anlatımlara	anlatım	NOUN	Noun	Case=Dat|Number=Plur|Person=3	8	obj	_	_
-8	odaklanmaktır	odaklan VERB	Verb_Zero	Case=Nom|Number=Sing|Person=3|Polarity=Pos	0	root	_	_
+8	odaklanmaktır	odaklan	VERB	Verb_Zero	Case=Nom|Number=Sing|Person=3|Polarity=Pos	0	root	_	_
 9	.	.	PUNCT	Punc	_	8	punct	_	_
 
 # sent_id = 10479
@@ -865,7 +865,7 @@
 12	korunma	koru	VERB	Verb	Case=Nom|Number=Sing|Person=3|Polarity=Pos|Voice=Pass	2	conj	_	_
 13	olanakları	olanak	NOUN	Noun	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	14	obj	_	_
 14	bulunan	bulun	VERB	Verb	Polarity=Pos|Tense=Pres|VerbForm=Part	15	acl	_	_
-15	Başbakanlık_Konutu'na başbakanlık_konut NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	17	obl	_	_
+15	Başbakanlık_Konutu'na	başbakanlık_konut	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	17	obl	_	_
 16	neden	neden	ADV	Ques	_	17	advmod	_	_
 17	geçmiyor	geç	VERB	Verb	Aspect=Prog|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	0	root	_	_
 18	?	?	PUNCT	Punc	_	17	punct	_	_
@@ -873,11 +873,11 @@
 # sent_id = 10481
 # text = Başbakanlık Konutu'na geçmesi Türkiye'nin yararları gereğidir .
 1	Başbakanlık	Başbakan	NOUN	Noun	Case=Nom|Number=Sing|Person=3	2	reparandum	_	_
-2	Konutu'na konut NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	obl	_	_
+2	Konutu'na	konut	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	obl	_	_
 3	geçmesi	geç	VERB	Verb	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos	6	csubj	_	_
 4	Türkiye'nin	Türkiye	PROPN	Prop	Case=Gen|Number=Sing|Person=3	5	compound	_	_
 5	yararları	yarar	NOUN	Noun	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	6	reparandum	_	_
-6	gereğidir	gereğ	NOUN	Noun_Zero	Aspect=Perf|Case=Nom|Mood=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Tense=Pres	0	root	_	_
+6	gereğidir	gereğ	Verb	Noun_Zero	Aspect=Perf|Case=Nom|Mood=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Tense=Pres	0	root	_	_
 7	.	.	PUNCT	Punc	_	6	punct	_	_
 
 # sent_id = 10482
