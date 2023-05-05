@@ -207,7 +207,7 @@
 5	evden	ev	NOUN	Noun	Case=Abl|Number=Sing|Person=3	6	obl	_	_
 6	çıkmamak	çık	VERB	Verb	Case=Nom|Polarity=Neg	7	acl	_	_
 7	kararı	karar	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	obl	_	_
-8	yerindedir  yer ADJ NAdj_Zero Aspect=Perf|Case=Loc|Mood=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Tense=Pres  0 root  _ _
+8	yerindedir	yer	ADJ	NAdj_Zero	Aspect=Perf|Case=Loc|Mood=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Tense=Pres	0	root	_	_
 9	.	.	PUNCT	Punc	_	8	punct	_	_
 
 # sent_id = 10423
