@@ -1081,7 +1081,7 @@
 4	Ecevit	Ecevit	PROPN	Prop	Case=Nom|Number=Sing|Person=3	6	obl	_	_
 5	için	için	ADP	PCNom	_	4	case	_	_
 6	devreye	devre	NOUN	Noun	Case=Dat|Number=Sing|Person=3	0	root	_	_
-7	konulmalıdır		VERB	Verb	Mood=Nec|Number=Sing|Person=3|Polarity=Pos|Voice=Pass	6	compound	_	_
+7	konulmalıdır  konul VERB	Verb	Mood=Nec|Number=Sing|Person=3|Polarity=Pos|Voice=Pass	6	compound	_	_
 8	.	.	PUNCT	Punc	_	6	punct	_	_
 
 # sent_id = 10505
@@ -1112,18 +1112,6 @@
 2	orada	ora	PRON	Noun	Case=Loc|Number=Sing|Person=3	3	obl	_	_
 3	yürütmelidir	yürüt	VERB	Verb_Zero	Aspect=Perf|Mood=Gen,Nec|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	0	root	_	_
 4	.	.	PUNCT	Punc	_	3	punct	_	_
-
-# sent_id = 10508
-# text = Toplantı ve kabul salonları bu işlev için yeterlidir .
-1	Toplantı		NOUN	Noun	Case=Nom|Number=Sing|Person=3	4	reparandum	_	_
-2	ve	ve	CCONJ	Conj	_	3	cc	_	_
-3	kabul	kabul	NOUN	Noun	Case=Nom|Number=Sing|Person=3	1	conj	_	_
-4	salonları	salon	NOUN	Noun	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	8	nsubj	_	_
-5	bu	bu	DET	Det	_	6	det	_	_
-6	işlev	işlev	NOUN	Noun	Case=Nom|Number=Sing|Person=3	8	obl	_	_
-7	için	için	ADP	PCNom	_	6	case	_	_
-8	yeterlidir	yeterli	ADJ	NAdj_Zero	Aspect=Perf|Case=Nom|Mood=Gen|Number=Sing|Person=3|Tense=Pres	0	root	_	_
-9	.	.	PUNCT	Punc	_	8	punct	_	_
 
 # sent_id = 10509
 # text = Hemen yandaki Dışişleri Konutu ile bir özel geçit bulunmaktadır .
