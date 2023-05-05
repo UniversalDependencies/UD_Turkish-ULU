@@ -113,7 +113,7 @@
 
 # sent_id = 10415
 # text = Kalbimi okşayan enginarların fidesini de yaşatmayı becerebilir miyim ?
-1	Kalbimi kalp  NOUN  Noun  Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1  2 obj _ _
+1	Kalbimi	kalp	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	2	obj	_	_
 2	okşayan	okşa	VERB	Verb	Polarity=Pos|Tense=Pres|VerbForm=Part	3	acl	_	_
 3	enginarların	enginar	NOUN	Noun	Case=Gen|Number=Plur|Person=3	4	reparandum	_	_
 4	fidesini	fide	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	obj	_	_
