@@ -65,7 +65,7 @@
 1	Yaşama	yaşama	VERB	Verb	Case=Dat|Number=Sing|Person=3	3	obj	_	_
 2	umutla	umut	NOUN	Noun	Case=Ins|Number=Sing|Person=3	3	obj	_	_
 3	bakma	bak	VERB	Verb	Case=Nom|Number=Sing|Person=3|Polarity=Pos	4	acl	_	_
-4	çağındaydı	çağ i	NOUN	Noun_Zero	Aspect=Perf|Case=Loc|Mood=Ind|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Tense=Past	0	root	_	_
+4	çağındaydı	çağ NOUN	Noun_Zero	Aspect=Perf|Case=Loc|Mood=Ind|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Tense=Past	0	root	_	_
 5	.	.	PUNCT	Punc	_	4	punct	_	_
 
 # sent_id = 10410
@@ -121,7 +121,7 @@
 
 # sent_id = 10415
 # text = Kalbimi okşayan enginarların fidesini de yaşatmayı becerebilir miyim ?
-1	Kalbimi		NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	2	obj	_	_
+1	Kalbimi kalp  NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	2	obj	_	_
 2	okşayan	okşa	VERB	Verb	Polarity=Pos|Tense=Pres|VerbForm=Part	3	acl	_	_
 3	enginarların	enginar	NOUN	Noun	Case=Gen|Number=Plur|Person=3	4	reparandum	_	_
 4	fidesini	fide	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	obj	_	_
@@ -208,14 +208,14 @@
 
 # sent_id = 10422
 # text = Ecevit’in daha birkaç gün evden çıkmamak kararı yerindedir .
-1	Ecevit’in	Ecevit’	PROPN	Prop	Case=Gen|Number=Sing|Person=3	7	flat	_	_
+1	Ecevit’in	Ecevit	PROPN	Prop	Case=Gen|Number=Sing|Person=3	7	flat	_	_
 2	daha	daha	ADV	Adverb	_	6	advmod	_	_
 3	birkaç	birkaç	DET	Det	_	4	det	_	_
 4	gün	gün	NOUN	Noun	Case=Nom|Number=Sing|Person=3	6	obl	_	_
 5	evden	ev	NOUN	Noun	Case=Abl|Number=Sing|Person=3	6	obl	_	_
 6	çıkmamak	çık	VERB	Verb	Case=Nom|Polarity=Neg	7	acl	_	_
 7	kararı	karar	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	obl	_	_
-8	yerindedir	yer i	ADJ	NAdj_Zero	Aspect=Perf|Case=Loc|Mood=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Tense=Pres	0	root	_	_
+8	yerindedir	yer ADJ	NAdj_Zero	Aspect=Perf|Case=Loc|Mood=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Tense=Pres	0	root	_	_
 9	.	.	PUNCT	Punc	_	8	punct	_	_
 
 # sent_id = 10423
@@ -369,7 +369,7 @@
 1	Hem	hem	CCONJ	Conj	_	10	cc	_	_
 2	de	de	CCONJ	Conj	_	10	cc	_	_
 3	Kemal	Kemal	PROPN	Prop	Case=Nom|Number=Sing|Person=3	8	flat	_	_
-4	Derviş’in		PROPN	Prop	Case=Gen|Number=Sing|Person=3	3	flat	_	_
+4	Derviş’in Derviş  PROPN	Prop	Case=Gen|Number=Sing|Person=3	3	flat	_	_
 5	moral	moral	NOUN	Noun	Case=Nom|Number=Sing|Person=3	6	obj	_	_
 6	yükselten	yüksel	VERB	Verb	Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Cau	8	acl	_	_
 7	son	son	ADJ	Adj	_	8	amod	_	_
@@ -445,15 +445,15 @@
 4	siyaset	siyaset	NOUN	Noun	Case=Nom|Number=Sing|Person=3	7	nsubj	_	_
 5	,	,	PUNCT	Punc	_	7	punct	_	_
 6	devlet	devlet	NOUN	Noun	Case=Nom|Number=Sing|Person=3	7	reparandum	_	_
-7	adamlığıdır	adamlığ	NOUN	Noun_Zero	Aspect=Perf|Case=Nom|Mood=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Tense=Pres	0	root	_	_
+7	adamlığıdır	adamlık NOUN  Noun_Zero Aspect=Perf|Case=Nom|Mood=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Tense=Pres	0	root	_	_
 8	.	.	PUNCT	Punc	_	7	punct	_	_
 
 # sent_id = 10443
-# text = Birleşmiş_Milletler Genel Şekreteri’nin Kibris’a gelmesi ve Türk kesimine geçmesi gündemde .
+# text = Birleşmiş_Milletler Genel Sekreteri’nin Kıbrıs’a gelmesi ve Türk kesimine geçmesi gündemde .
 1	Birleşmiş_Milletler	Birleşmiş_Milletler	ADJ	Adj	_	10	amod	_	_
 2	Genel	genel	ADJ	Adj	_	3	amod	_	_
-3	Şekreteri’nin		PROPN	Prop	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nsubj	_	_
-4	Kibris’a	Kibris’a	PROPN	Prop	Case=Dat|Number=Sing|Person=3	5	obl	_	_
+3	Sekreteri’nin Sekreter  PROPN	Prop	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nsubj	_	_
+4	Kıbrıs’a	Kıbrıs	PROPN	Prop	Case=Dat|Number=Sing|Person=3	5	obl	_	_
 5	gelmesi	gel	VERB	Verb	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos	10	csubj	_	_
 6	ve	ve	CCONJ	Conj	_	9	cc	_	_
 7	Türk	Türk	ADJ	Adj	Case=Nom|Number=Sing|Person=3	8	amod	_	_
@@ -464,7 +464,7 @@
 
 # sent_id = 10444
 # text = Ortaklar arasında duyarlı konular için uyumsuzluk , gizlenemez hale gelmekte .
-1	Ortaklar		NOUN	NAdj	Case=Nom|Number=Plur|Person=3	2	obl	_	_
+1	Ortaklar  ortak NOUN	NAdj	Case=Nom|Number=Plur|Person=3	2	obl	_	_
 2	arasında	ara	ADJ	NAdj	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	amod	_	_
 3	duyarlı	duyarlı	ADJ	Adj	_	4	amod	_	_
 4	konular	konu	NOUN	Noun	Case=Nom|Number=Plur|Person=3	9	nsubj	_	_
@@ -482,7 +482,7 @@
 2	Genelkurmay	genelkurmay	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	obl	_	_
 3	olmak	ol	VERB	Verb	Case=Nom|Polarity=Pos	12	obl	_	_
 4	üzere	üzere	ADP	PCNom	_	3	case	_	_
-5	Ecevit’in		PROPN	Prop	Case=Gen|Number=Sing|Person=3	6	flat	_	_
+5	Ecevit’in Ecevit  PROPN	Prop	Case=Gen|Number=Sing|Person=3	6	flat	_	_
 6	sağlığı	sağlık	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	12	nsubj	_	_
 7	özenle	özen	ADV	Noun	_	12	advmod	_	_
 8	ve	ve	CCONJ	Conj	_	9	cc	_	_
@@ -518,7 +518,7 @@
 6	görevi	görev	NOUN	Noun	Case=Acc|Number=Sing|Person=3	9	obj	_	_
 7	ne	ne	PRON	Ques	Case=Nom|Number=Sing|Person=3	9	iobj	_	_
 8	kadar	kadar	ADP	PCDat	_	7	case	_	_
-9	sürdürebileceği		VERB	Verb	Aspect=Imp|Case=Nom|Mood=Pot|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Tense=Fut|VerbForm=Part	10	acl	_	_
+9	sürdürebileceği sür VERB	Verb	Aspect=Imp|Case=Nom|Mood=Pot|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Tense=Fut|VerbForm=Part	10	acl	_	_
 10	kuşkusu	kuşku	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	0	root	_	_
 11	.	.	PUNCT	Punc	_	10	punct	_	_
 
@@ -605,7 +605,7 @@
 
 # sent_id = 10455
 # text = Mafyayla savaşımın simgesi Savcı Scarpinato’nun anlatımına göre , bazı özel kuvvetler ve gizli servisin ikinci başkanıyla birlikte , İtalya’nin güneyini ve Sıçmaya Adaşı’nı ayrı bir devlet haline getirme çabasındaymışlar .
-1	Mafyayla		NOUN	Noun	Case=Ins|Number=Sing|Person=3	2	obj	_	_
+1	Mafyayla  Mafya NOUN	Noun	Case=Ins|Number=Sing|Person=3	2	obj	_	_
 2	savaşımın	savaşım	NOUN	Noun	Case=Gen|Number=Sing|Person=3	3	reparandum	_	_
 3	simgesi	simge	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	reparandum	_	_
 4	Savcı	savcı	NOUN	Noun	Case=Nom|Number=Sing|Person=3	6	reparandum	_	_
@@ -626,14 +626,14 @@
 19	İtalya’nin	İtalya	PROPN	Prop	Case=Gen|Number=Sing|Person=3	20	flat	_	_
 20	güneyini	güney	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	28	obj	_	_
 21	ve	ve	CCONJ	Conj	_	23	cc	_	_
-22	Sıçmaya	Sıç	NOUN	Verb	Case=Dat|Number=Sing|Person=3|Polarity=Pos	23	reparandum	_	_
-23	Adaşı’nı		NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	20	conj	_	_
+22	Sıçmaya	Sıçmaya	NOUN	Verb	Case=Dat|Number=Sing|Person=3|Polarity=Pos	23	reparandum	_	_
+23	Adaşı’nı  Adaşı NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	20	conj	_	_
 24	ayrı	ayrı	ADJ	Adj	_	26	amod	_	_
 25	bir	bir	DET	ANum	_	26	det	_	_
 26	devlet	devlet	NOUN	Noun	Case=Nom|Number=Sing|Person=3	27	reparandum	_	_
 27	haline	hâl	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	28	obl	_	_
 28	getirme	getir	VERB	Verb	Case=Nom|Number=Sing|Person=3|Polarity=Pos	29	acl	_	_
-29	çabasındaymışlar		NOUN	Noun_Zero	Aspect=Perf|Case=Loc|Mood=Ind|Number=Plur,Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Tense=Past	0	root	_	_
+29	çabasındaymışlar  çaba  NOUN	Noun_Zero	Aspect=Perf|Case=Loc|Mood=Ind|Number=Plur,Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Tense=Past	0	root	_	_
 30	.	.	PUNCT	Punc	_	29	punct	_	_
 
 # sent_id = 10456
