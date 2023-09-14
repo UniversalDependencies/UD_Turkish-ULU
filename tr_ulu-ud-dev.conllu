@@ -1081,7 +1081,7 @@
 4	Ecevit	Ecevit	PROPN	Prop	Case=Nom|Number=Sing|Person=3	6	obl	_	_
 5	için	için	ADP	PCNom	_	4	case	_	_
 6	devreye	devre	NOUN	Noun	Case=Dat|Number=Sing|Person=3	0	root	_	_
-7	konulmalıdır  konul VERB	Verb	Mood=Nec|Number=Sing|Person=3|Polarity=Pos|Voice=Pass	6	compound	_	_
+7	konulmalıdır	konul	VERB	Verb	Mood=Nec|Number=Sing|Person=3|Polarity=Pos|Voice=Pass	6	compound	_	_
 8	.	.	PUNCT	Punc	_	6	punct	_	_
 
 # sent_id = 10505
