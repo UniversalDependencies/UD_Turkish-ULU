@@ -26,6 +26,7 @@ Bilgin, Metin. "A new approach to automatically find and fix erroneous labels in
 Data available since: UD v2.12
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: grammar-examples
 Lemmas: manual native
 UPOS: manual native
